@@ -1,0 +1,163 @@
+/*index.html*/
+
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(94, 92, 92);
+}
+
+a:hover{
+    color: rgb(63, 63, 236);
+}
+
+
+#display{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 30px;
+    padding: 10px 10px;
+    border: 1px solid rgb(180, 176, 176);
+}
+
+#display:hover{
+    background-color: rgb(142, 243, 243);
+    cursor: pointer;
+}
+
+#display:active{
+    background-color: aqua;
+}
+
+#welcome{
+    text-align: center;
+}
+
+#slider{
+    border: 2px solid rgb(180, 176, 176);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin-bottom: 1%;
+}
+
+#slider:hover{
+    background-color: rgb(230, 223, 223);
+}
+
+.line{
+    display: block;
+    height: 2px;
+    background-color: rgb(114, 110, 110);
+    margin-bottom: 5px;
+    width: 20px;
+}
+
+#slider .line:last-child{
+    margin-bottom: 0;
+}
+
+.topic{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*contact.html*/
+.contact{
+    text-align: center;
+}
+
+/*cert.html*/
+#image1{
+    border: 2px solid rgb(82, 76, 76);
+}
+
+#image2{
+    position: relative;
+    left: 50%;
+    bottom: 397.5px;
+    border: 2px solid rgb(82, 76, 76);
+}
+
+#imagecap2{
+    position: relative;
+    left: 50%;
+    bottom: 397.5px;
+}
+
+#image3{
+    position: relative;
+    bottom: 397.5px;
+    border: 2px solid rgb(82, 76, 76);
+}
+
+#imagecap3{
+    position: relative;
+    bottom: 397.5px;
+}
+
+#image4{
+    position: relative;
+    left: 50%;
+    bottom: 792px;
+    border: 2px solid rgb(82, 76, 76);
+}
+
+#imagecap4{
+    position: relative;
+    left: 50%;
+    bottom: 792px;
+}
+
+#image5{
+    position: relative;
+    bottom: 780px;
+    border: 2px solid rgb(82, 76, 76);
+}
+
+#imagecap5{
+    position: relative;
+    bottom: 780px;
+    
+}
+
+
+figure{
+    pointer-events: none;
+}
+
+#nana{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    pointer-events: none;
+}
+
+header{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    border-top: 1px solid rgb(216, 211, 211);
+    border-bottom: 1px solid rgb(216, 211, 211);
+    padding-top: 1%;
+}
+
+footer{
+    bottom: 0;
+    margin-top: 10%;
+    border-top: 1px solid rgb(216, 211, 211);
+    width: 100%;
+}
